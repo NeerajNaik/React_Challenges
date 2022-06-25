@@ -1,0 +1,51 @@
+
+
+.dark{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+  color: #fff;
+}
+.light{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #fff;
+  color: black;
+}
+
+.innerLight{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #b3b3b3;
+  color: black;
+  padding: 3%;
+}
+
+.innerDark{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(26 26 26);;
+  color: #fff;
+  padding: 3%;
+}
+
+.btnClass{
+  height: fit-content;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
